@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+<UIImagePickerControllerDelegate, UINavigationControllerDelegate,UIGestureRecognizerDelegate,UIActionSheetDelegate>
+
+@property (strong, nonatomic) IBOutlet UIImageView *hatView;
+@property (strong, nonatomic) IBOutlet UIImageView *photoView;
+
+- (IBAction)cameraBtnAction:(id)sender;
+- (IBAction)shareBtnAction:(id)sender;
+
 
 @end

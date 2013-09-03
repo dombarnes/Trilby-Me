@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		732AD3A917D660D100308495 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 732AD3A317D660D100308495 /* libTestFlight.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		732AD3AA17D660D100308495 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 732AD3A417D660D100308495 /* README.md */; };
+		732AD3AB17D660D100308495 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 732AD3A517D660D100308495 /* release_notes.md */; };
+		732AD3AE17D666DA00308495 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 732AD3AD17D666DA00308495 /* libz.dylib */; };
 		739CFE6917A7CACB00D8BD20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739CFE6817A7CACB00D8BD20 /* UIKit.framework */; };
 		739CFE6B17A7CACB00D8BD20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739CFE6A17A7CACB00D8BD20 /* Foundation.framework */; };
 		739CFE6D17A7CACB00D8BD20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739CFE6C17A7CACB00D8BD20 /* CoreGraphics.framework */; };
@@ -24,6 +28,9 @@
 		739CFE9717A7CACB00D8BD20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 739CFE9517A7CACB00D8BD20 /* InfoPlist.strings */; };
 		739CFE9A17A7CACB00D8BD20 /* Trilby_MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 739CFE9917A7CACB00D8BD20 /* Trilby_MeTests.m */; };
 		F28D4AD217AB11D600A81C47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28D4AD117AB11D600A81C47 /* Images.xcassets */; };
+		F28D4AD417AB182300A81C47 /* beard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28D4AD317AB182300A81C47 /* beard@2x.png */; };
+		F28D4AD617AB183400A81C47 /* photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28D4AD517AB183400A81C47 /* photo@2x.png */; };
+		F28D4AD917AB1BAA00A81C47 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28D4AD817AB1BAA00A81C47 /* StartViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		732AD3A317D660D100308495 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		732AD3A417D660D100308495 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		732AD3A517D660D100308495 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		732AD3A617D660D100308495 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		732AD3A717D660D100308495 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		732AD3A817D660D100308495 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		732AD3AD17D666DA00308495 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		739CFE6517A7CACB00D8BD20 /* Trilby Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trilby Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		739CFE6817A7CACB00D8BD20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		739CFE6A17A7CACB00D8BD20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +74,10 @@
 		739CFE9817A7CACB00D8BD20 /* Trilby_MeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trilby_MeTests.h; sourceTree = "<group>"; };
 		739CFE9917A7CACB00D8BD20 /* Trilby_MeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trilby_MeTests.m; sourceTree = "<group>"; };
 		F28D4AD117AB11D600A81C47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F28D4AD317AB182300A81C47 /* beard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beard@2x.png"; sourceTree = "<group>"; };
+		F28D4AD517AB183400A81C47 /* photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo@2x.png"; sourceTree = "<group>"; };
+		F28D4AD717AB1B4B00A81C47 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		F28D4AD817AB1BAA00A81C47 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +85,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				732AD3AE17D666DA00308495 /* libz.dylib in Frameworks */,
 				739CFE6917A7CACB00D8BD20 /* UIKit.framework in Frameworks */,
 				739CFE6B17A7CACB00D8BD20 /* Foundation.framework in Frameworks */,
 				739CFE6D17A7CACB00D8BD20 /* CoreGraphics.framework in Frameworks */,
+				732AD3A917D660D100308495 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,9 +106,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		732AD3A217D660D100308495 /* TestFlightSDK2.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				732AD3A317D660D100308495 /* libTestFlight.a */,
+				732AD3A417D660D100308495 /* README.md */,
+				732AD3A517D660D100308495 /* release_notes.md */,
+				732AD3A617D660D100308495 /* TestFlight+AsyncLogging.h */,
+				732AD3A717D660D100308495 /* TestFlight+ManualSessions.h */,
+				732AD3A817D660D100308495 /* TestFlight.h */,
+			);
+			path = TestFlightSDK2.0.0;
+			sourceTree = "<group>";
+		};
 		739CFE5C17A7CACB00D8BD20 = {
 			isa = PBXGroup;
 			children = (
+				732AD3A217D660D100308495 /* TestFlightSDK2.0.0 */,
+				F28D4AD517AB183400A81C47 /* photo@2x.png */,
+				F28D4AD317AB182300A81C47 /* beard@2x.png */,
 				739CFE6E17A7CACB00D8BD20 /* Trilby Me */,
 				739CFE9217A7CACB00D8BD20 /* Trilby MeTests */,
 				739CFE6717A7CACB00D8BD20 /* Frameworks */,
@@ -108,6 +144,7 @@
 		739CFE6717A7CACB00D8BD20 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				732AD3AD17D666DA00308495 /* libz.dylib */,
 				739CFE6817A7CACB00D8BD20 /* UIKit.framework */,
 				739CFE6A17A7CACB00D8BD20 /* Foundation.framework */,
 				739CFE6C17A7CACB00D8BD20 /* CoreGraphics.framework */,
@@ -122,6 +159,8 @@
 				739CFE7717A7CACB00D8BD20 /* AppDelegate.h */,
 				739CFE7817A7CACB00D8BD20 /* AppDelegate.m */,
 				739CFE8017A7CACB00D8BD20 /* MainStoryboard.storyboard */,
+				F28D4AD717AB1B4B00A81C47 /* StartViewController.h */,
+				F28D4AD817AB1BAA00A81C47 /* StartViewController.m */,
 				739CFE8317A7CACB00D8BD20 /* ViewController.h */,
 				739CFE8417A7CACB00D8BD20 /* ViewController.m */,
 				F28D4AD117AB11D600A81C47 /* Images.xcassets */,
@@ -172,6 +211,7 @@
 			buildPhases = (
 				739CFE6117A7CACB00D8BD20 /* Sources */,
 				739CFE6217A7CACB00D8BD20 /* Frameworks */,
+				732AD3AC17D660DC00308495 /* ShellScript */,
 				739CFE6317A7CACB00D8BD20 /* Resources */,
 			);
 			buildRules = (
@@ -210,6 +250,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Trilby Multimedia Limited";
+				TargetAttributes = {
+					739CFE6417A7CACB00D8BD20 = {
+						DevelopmentTeam = 37D4DNNGHR;
+					};
+				};
 			};
 			buildConfigurationList = 739CFE6017A7CACB00D8BD20 /* Build configuration list for PBXProject "Trilby Me" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -237,7 +282,11 @@
 				739CFE7317A7CACB00D8BD20 /* InfoPlist.strings in Resources */,
 				739CFE7B17A7CACB00D8BD20 /* Default.png in Resources */,
 				739CFE7D17A7CACB00D8BD20 /* Default@2x.png in Resources */,
+				F28D4AD617AB183400A81C47 /* photo@2x.png in Resources */,
+				732AD3AB17D660D100308495 /* release_notes.md in Resources */,
 				F28D4AD217AB11D600A81C47 /* Images.xcassets in Resources */,
+				F28D4AD417AB182300A81C47 /* beard@2x.png in Resources */,
+				732AD3AA17D660D100308495 /* README.md in Resources */,
 				739CFE7F17A7CACB00D8BD20 /* Default-568h@2x.png in Resources */,
 				739CFE8217A7CACB00D8BD20 /* MainStoryboard.storyboard in Resources */,
 			);
@@ -254,6 +303,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		732AD3AC17D660DC00308495 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
 		739CFE8917A7CACB00D8BD20 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				739CFE7517A7CACB00D8BD20 /* main.m in Sources */,
+				F28D4AD917AB1BAA00A81C47 /* StartViewController.m in Sources */,
 				739CFE7917A7CACB00D8BD20 /* AppDelegate.m in Sources */,
 				739CFE8517A7CACB00D8BD20 /* ViewController.m in Sources */,
 			);
@@ -338,6 +401,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -369,7 +433,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -387,10 +452,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Trilby Me/Trilby Me-Prefix.pch";
 				INFOPLIST_FILE = "Trilby Me/Trilby Me-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/domster83/Xcode/Trilby\\ Me/TestFlightSDK2.0.0",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -402,10 +472,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Trilby Me/Trilby Me-Prefix.pch";
 				INFOPLIST_FILE = "Trilby Me/Trilby Me-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/domster83/Xcode/Trilby\\ Me/TestFlightSDK2.0.0",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
