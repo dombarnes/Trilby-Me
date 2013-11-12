@@ -170,8 +170,8 @@
 	
     [TestFlight passCheckpoint:@"User hit share button"];
 
-//    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Photo Saved" message:@"Saved to camera roll" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Photo Saved" message:@"Saved to camera roll" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
     
-//    [alertView show];
+    [alertView show];
 }
 @end
