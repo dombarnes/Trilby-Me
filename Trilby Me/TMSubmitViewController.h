@@ -12,10 +12,9 @@
 
 extern NSString *const MYServerURL;
 
-@property (weak) IBOutlet UITextField *nameTextField;
-@property (weak) IBOutlet UITextField *feedbackTextField;
-@property (weak) IBOutlet UITextField *twitterName;
-
+//@property (weak) IBOutlet UITextField *nameTextField;
+//@property (weak) IBOutlet UITextField *feedbackTextField;
+//@property (weak) IBOutlet UITextField *twitterName;
 
 
 -(IBAction)dismissKeyboard;

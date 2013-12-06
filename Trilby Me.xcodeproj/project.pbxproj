@@ -12,9 +12,6 @@
 		7306DCA717F5C4640050EA7F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7306DCA617F5C4640050EA7F /* CFNetwork.framework */; };
 		7306DCA917F5C4890050EA7F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7306DCA817F5C4890050EA7F /* SystemConfiguration.framework */; };
 		7306DCAB17F5C4910050EA7F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7306DCAA17F5C4910050EA7F /* MobileCoreServices.framework */; };
-		732AD3A917D660D100308495 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 732AD3A317D660D100308495 /* libTestFlight.a */; settings = {ATTRIBUTES = (Required, ); }; };
-		732AD3AA17D660D100308495 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 732AD3A417D660D100308495 /* README.md */; };
-		732AD3AB17D660D100308495 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 732AD3A517D660D100308495 /* release_notes.md */; };
 		732AD3AE17D666DA00308495 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 732AD3AD17D666DA00308495 /* libz.dylib */; };
 		733E3CD417EA08890046ECD1 /* trilbyhat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 733E3CD317EA08890046ECD1 /* trilbyhat@2x.png */; };
 		739CFE6917A7CACB00D8BD20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739CFE6817A7CACB00D8BD20 /* UIKit.framework */; };
@@ -33,6 +30,9 @@
 		739CFE8F17A7CACB00D8BD20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739CFE6A17A7CACB00D8BD20 /* Foundation.framework */; };
 		739CFE9717A7CACB00D8BD20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 739CFE9517A7CACB00D8BD20 /* InfoPlist.strings */; };
 		739CFE9A17A7CACB00D8BD20 /* Trilby_MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 739CFE9917A7CACB00D8BD20 /* Trilby_MeTests.m */; };
+		73AF20BB1851F0D8004AAC62 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AF20B51851F0D8004AAC62 /* libTestFlight.a */; };
+		73AF20BC1851F0D8004AAC62 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 73AF20B61851F0D8004AAC62 /* README.md */; };
+		73AF20BD1851F0D8004AAC62 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 73AF20B71851F0D8004AAC62 /* release_notes.md */; };
 		F28D4AD217AB11D600A81C47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28D4AD117AB11D600A81C47 /* Images.xcassets */; };
 		F28D4AD417AB182300A81C47 /* beard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28D4AD317AB182300A81C47 /* beard@2x.png */; };
 		F28D4AD617AB183400A81C47 /* photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28D4AD517AB183400A81C47 /* photo@2x.png */; };
@@ -57,12 +57,6 @@
 		7306DCA617F5C4640050EA7F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		7306DCA817F5C4890050EA7F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7306DCAA17F5C4910050EA7F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		732AD3A317D660D100308495 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		732AD3A417D660D100308495 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		732AD3A517D660D100308495 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		732AD3A617D660D100308495 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		732AD3A717D660D100308495 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
-		732AD3A817D660D100308495 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		732AD3AD17D666DA00308495 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		733E3CD317EA08890046ECD1 /* trilbyhat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trilbyhat@2x.png"; sourceTree = "<group>"; };
 		739CFE6517A7CACB00D8BD20 /* Trilby Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trilby Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +81,12 @@
 		739CFE9617A7CACB00D8BD20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		739CFE9817A7CACB00D8BD20 /* Trilby_MeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trilby_MeTests.h; sourceTree = "<group>"; };
 		739CFE9917A7CACB00D8BD20 /* Trilby_MeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trilby_MeTests.m; sourceTree = "<group>"; };
+		73AF20B51851F0D8004AAC62 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		73AF20B61851F0D8004AAC62 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		73AF20B71851F0D8004AAC62 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		73AF20B81851F0D8004AAC62 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		73AF20B91851F0D8004AAC62 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		73AF20BA1851F0D8004AAC62 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
 		F28D4AD117AB11D600A81C47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F28D4AD317AB182300A81C47 /* beard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beard@2x.png"; sourceTree = "<group>"; };
 		F28D4AD517AB183400A81C47 /* photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo@2x.png"; sourceTree = "<group>"; };
@@ -102,11 +102,11 @@
 				7306DCAB17F5C4910050EA7F /* MobileCoreServices.framework in Frameworks */,
 				7306DCA917F5C4890050EA7F /* SystemConfiguration.framework in Frameworks */,
 				7306DCA717F5C4640050EA7F /* CFNetwork.framework in Frameworks */,
+				73AF20BB1851F0D8004AAC62 /* libTestFlight.a in Frameworks */,
 				732AD3AE17D666DA00308495 /* libz.dylib in Frameworks */,
 				739CFE6917A7CACB00D8BD20 /* UIKit.framework in Frameworks */,
 				739CFE6B17A7CACB00D8BD20 /* Foundation.framework in Frameworks */,
 				739CFE6D17A7CACB00D8BD20 /* CoreGraphics.framework in Frameworks */,
-				732AD3A917D660D100308495 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,19 +133,6 @@
 			path = "Trilby Me";
 			sourceTree = "<group>";
 		};
-		732AD3A217D660D100308495 /* TestFlightSDK2.0.0 */ = {
-			isa = PBXGroup;
-			children = (
-				732AD3A317D660D100308495 /* libTestFlight.a */,
-				732AD3A417D660D100308495 /* README.md */,
-				732AD3A517D660D100308495 /* release_notes.md */,
-				732AD3A617D660D100308495 /* TestFlight+AsyncLogging.h */,
-				732AD3A717D660D100308495 /* TestFlight+ManualSessions.h */,
-				732AD3A817D660D100308495 /* TestFlight.h */,
-			);
-			path = TestFlightSDK2.0.0;
-			sourceTree = "<group>";
-		};
 		735D70811801FD2800DC5225 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +149,7 @@
 		739CFE5C17A7CACB00D8BD20 = {
 			isa = PBXGroup;
 			children = (
-				732AD3A217D660D100308495 /* TestFlightSDK2.0.0 */,
+				73AF20B41851EFBB004AAC62 /* TestFlightSDK2.0.2 */,
 				F28D4AD517AB183400A81C47 /* photo@2x.png */,
 				F28D4AD317AB182300A81C47 /* beard@2x.png */,
 				733E3CD317EA08890046ECD1 /* trilbyhat@2x.png */,
@@ -244,6 +231,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		73AF20B41851EFBB004AAC62 /* TestFlightSDK2.0.2 */ = {
+			isa = PBXGroup;
+			children = (
+				73AF20B51851F0D8004AAC62 /* libTestFlight.a */,
+				73AF20B61851F0D8004AAC62 /* README.md */,
+				73AF20B71851F0D8004AAC62 /* release_notes.md */,
+				73AF20B81851F0D8004AAC62 /* TestFlight.h */,
+				73AF20B91851F0D8004AAC62 /* TestFlight+AsyncLogging.h */,
+				73AF20BA1851F0D8004AAC62 /* TestFlight+ManualSessions.h */,
+			);
+			path = TestFlightSDK2.0.2;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -323,13 +323,13 @@
 			files = (
 				739CFE7317A7CACB00D8BD20 /* InfoPlist.strings in Resources */,
 				739CFE7B17A7CACB00D8BD20 /* Default.png in Resources */,
+				73AF20BC1851F0D8004AAC62 /* README.md in Resources */,
 				733E3CD417EA08890046ECD1 /* trilbyhat@2x.png in Resources */,
+				73AF20BD1851F0D8004AAC62 /* release_notes.md in Resources */,
 				739CFE7D17A7CACB00D8BD20 /* Default@2x.png in Resources */,
 				F28D4AD617AB183400A81C47 /* photo@2x.png in Resources */,
-				732AD3AB17D660D100308495 /* release_notes.md in Resources */,
 				F28D4AD217AB11D600A81C47 /* Images.xcassets in Resources */,
 				F28D4AD417AB182300A81C47 /* beard@2x.png in Resources */,
-				732AD3AA17D660D100308495 /* README.md in Resources */,
 				739CFE7F17A7CACB00D8BD20 /* Default-568h@2x.png in Resources */,
 				739CFE8217A7CACB00D8BD20 /* MainStoryboard.storyboard in Resources */,
 			);
@@ -497,8 +497,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dominic Barnes (Y8Y7Y593RQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dominic Barnes (Y8Y7Y593RQ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Trilby Me/Trilby Me-Prefix.pch";
 				INFOPLIST_FILE = "Trilby Me/Trilby Me-Info.plist";
@@ -506,9 +506,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/domster83/Xcode/Trilby\\ Me/TestFlightSDK2.0.0",
+					"/Users/domster83/Xcode/Trilby\\ Me/TestFlightSDK2.0.2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "B2850CE0-1F59-42B1-9F8E-B7E7FFE1CE95";
+				PROVISIONING_PROFILE = "57021F0B-E56C-4E75-99FC-442F1F0DF9AF";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -527,9 +528,10 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/domster83/Xcode/Trilby\\ Me/TestFlightSDK2.0.0",
+					"/Users/domster83/Xcode/Trilby\\ Me/TestFlightSDK2.0.2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "B2850CE0-1F59-42B1-9F8E-B7E7FFE1CE95";
+				PROVISIONING_PROFILE = "57021F0B-E56C-4E75-99FC-442F1F0DF9AF";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

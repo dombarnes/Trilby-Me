@@ -75,30 +75,30 @@ NSString *const MYServerURL = @"http://trilby-me.herokuapp.com";
 //    [request setFile:@"photo@2x.png" forKey:@"image_file"];
     
 }
-- (BOOL)nextTextField:(UITextField *)textField;
+- (BOOL)nextTextField:(UITextField *)textField
 {
-    if (textField == _nameTextField)
-    {
-        [_nameTextField resignFirstResponder];
-        [_feedbackTextField becomeFirstResponder];
-    }
-    else if (textField == _feedbackTextField)
-    {
-        [_feedbackTextField resignFirstResponder];
-        [_twitterName becomeFirstResponder];
-    }
-    else if (textField == _twitterName)
-    {
-        [_twitterName resignFirstResponder];
-    }
-    return YES;
+//    if (textField == _nameTextField)
+//    {
+//        [textField resignFirstResponder];
+//        [_feedbackTextField becomeFirstResponder];
+//    }
+//    else if (textField == _feedbackTextField)
+//    {
+//        [textField resignFirstResponder];
+//        [_twitterName becomeFirstResponder];
+//    }
+//    else
+//    {
+//        [textField resignFirstResponder];
+//    }
+//    return YES;
 }
 
 -(IBAction)dismissKeyboard;
 {
-    [_nameTextField resignFirstResponder];
-    [_feedbackTextField resignFirstResponder];
-    [_twitterName resignFirstResponder];
+//    [_nameTextField resignFirstResponder];
+//    [_feedbackTextField resignFirstResponder];
+//    [_twitterName resignFirstResponder];
 }
 
 @end
