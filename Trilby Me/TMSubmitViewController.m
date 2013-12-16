@@ -52,7 +52,7 @@ NSString *const MYServerURL = @"http://trilby-me.herokuapp.com";
     // Dispose of any resources that can be recreated.
 }
 
-- (void) submitPhoto {
+- (void)submitPhoto {
     /*
      Observe the kNetworkReachabilityChangedNotification. When that notification is posted, the method reachabilityChanged will be called.
      */
@@ -77,28 +77,28 @@ NSString *const MYServerURL = @"http://trilby-me.herokuapp.com";
 }
 - (BOOL)nextTextField:(UITextField *)textField
 {
-//    if (textField == _nameTextField)
-//    {
-//        [textField resignFirstResponder];
-//        [_feedbackTextField becomeFirstResponder];
-//    }
-//    else if (textField == _feedbackTextField)
-//    {
-//        [textField resignFirstResponder];
-//        [_twitterName becomeFirstResponder];
-//    }
-//    else
-//    {
-//        [textField resignFirstResponder];
-//    }
-//    return YES;
+    if (textField == _nameTextField)
+    {
+        [_nameTextField resignFirstResponder];
+        [_feedbackTextField becomeFirstResponder];
+    }
+    else if (textField == _feedbackTextField)
+    {
+        [_feedbackTextField resignFirstResponder];
+        [_twitterName becomeFirstResponder];
+    }
+    else
+    {
+        [textField resignFirstResponder];
+    }
+    return YES;
 }
 
 -(IBAction)dismissKeyboard;
 {
-//    [_nameTextField resignFirstResponder];
-//    [_feedbackTextField resignFirstResponder];
-//    [_twitterName resignFirstResponder];
+    [_nameTextField resignFirstResponder];
+    [_feedbackTextField resignFirstResponder];
+    [_twitterName resignFirstResponder];
 }
 
 @end

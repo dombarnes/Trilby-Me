@@ -88,10 +88,7 @@
     switch (buttonIndex) {
         case 0:
             picker.sourceType = UIImagePickerControllerSourceTypeCamera;
-//            picker.sourceType = UIImagePickerControllerCameraDeviceFront;
-            break;
-        case 1:
-            picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+            picker.cameraDevice = UIImagePickerControllerCameraDeviceFront;
             break;
         default:
             break;
@@ -147,7 +144,7 @@
     UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil
                                                              delegate:self                                                    cancelButtonTitle:@"Cancel"
                                                destructiveButtonTitle:nil
-                                                    otherButtonTitles:@"Take a Picture",@"Choose from Library", nil];
+                                                    otherButtonTitles:@"Take a Picture", nil];
     [actionSheet showInView:self.view];
 	[TestFlight passCheckpoint:@"User hit camera button button"];
 
