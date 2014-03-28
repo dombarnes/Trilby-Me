@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69B926F43CBC41F5AC738340 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54C8916D9C42D9A5801F26 /* libPods.a */; };
+		376474AF64CF4383AACAB6F3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E41001A2D00043A8BA7EB7C3 /* libPods.a */; };
 		7306DC2917F5BE0B0050EA7F /* TMSubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7306DC2817F5BE0B0050EA7F /* TMSubmitViewController.m */; };
 		7306DC2C17F5BF620050EA7F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7306DC2B17F5BF620050EA7F /* Reachability.m */; };
 		7306DCA717F5C4640050EA7F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7306DCA617F5C4640050EA7F /* CFNetwork.framework */; };
@@ -31,9 +31,6 @@
 		739CFE8F17A7CACB00D8BD20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739CFE6A17A7CACB00D8BD20 /* Foundation.framework */; };
 		739CFE9717A7CACB00D8BD20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 739CFE9517A7CACB00D8BD20 /* InfoPlist.strings */; };
 		739CFE9A17A7CACB00D8BD20 /* Trilby_MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 739CFE9917A7CACB00D8BD20 /* Trilby_MeTests.m */; };
-		73AF20BB1851F0D8004AAC62 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AF20B51851F0D8004AAC62 /* libTestFlight.a */; };
-		73AF20BC1851F0D8004AAC62 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 73AF20B61851F0D8004AAC62 /* README.md */; };
-		73AF20BD1851F0D8004AAC62 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 73AF20B71851F0D8004AAC62 /* release_notes.md */; };
 		F28D4AD217AB11D600A81C47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28D4AD117AB11D600A81C47 /* Images.xcassets */; };
 		F28D4AD417AB182300A81C47 /* beard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28D4AD317AB182300A81C47 /* beard@2x.png */; };
 		F28D4AD617AB183400A81C47 /* photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28D4AD517AB183400A81C47 /* photo@2x.png */; };
@@ -82,14 +79,8 @@
 		739CFE9617A7CACB00D8BD20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		739CFE9817A7CACB00D8BD20 /* Trilby_MeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trilby_MeTests.h; sourceTree = "<group>"; };
 		739CFE9917A7CACB00D8BD20 /* Trilby_MeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trilby_MeTests.m; sourceTree = "<group>"; };
-		73AF20B51851F0D8004AAC62 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		73AF20B61851F0D8004AAC62 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		73AF20B71851F0D8004AAC62 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		73AF20B81851F0D8004AAC62 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
-		73AF20B91851F0D8004AAC62 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		73AF20BA1851F0D8004AAC62 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
 		B547B7F5B5B54069A4FDCE29 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		EC54C8916D9C42D9A5801F26 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41001A2D00043A8BA7EB7C3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28D4AD117AB11D600A81C47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F28D4AD317AB182300A81C47 /* beard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beard@2x.png"; sourceTree = "<group>"; };
 		F28D4AD517AB183400A81C47 /* photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo@2x.png"; sourceTree = "<group>"; };
@@ -105,12 +96,11 @@
 				7306DCAB17F5C4910050EA7F /* MobileCoreServices.framework in Frameworks */,
 				7306DCA917F5C4890050EA7F /* SystemConfiguration.framework in Frameworks */,
 				7306DCA717F5C4640050EA7F /* CFNetwork.framework in Frameworks */,
-				73AF20BB1851F0D8004AAC62 /* libTestFlight.a in Frameworks */,
 				732AD3AE17D666DA00308495 /* libz.dylib in Frameworks */,
 				739CFE6917A7CACB00D8BD20 /* UIKit.framework in Frameworks */,
 				739CFE6B17A7CACB00D8BD20 /* Foundation.framework in Frameworks */,
 				739CFE6D17A7CACB00D8BD20 /* CoreGraphics.framework in Frameworks */,
-				69B926F43CBC41F5AC738340 /* libPods.a in Frameworks */,
+				376474AF64CF4383AACAB6F3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +143,6 @@
 		739CFE5C17A7CACB00D8BD20 = {
 			isa = PBXGroup;
 			children = (
-				73AF20B41851EFBB004AAC62 /* TestFlightSDK2.0.2 */,
 				F28D4AD517AB183400A81C47 /* photo@2x.png */,
 				F28D4AD317AB182300A81C47 /* beard@2x.png */,
 				733E3CD317EA08890046ECD1 /* trilbyhat@2x.png */,
@@ -186,7 +175,7 @@
 				739CFE6A17A7CACB00D8BD20 /* Foundation.framework */,
 				739CFE6C17A7CACB00D8BD20 /* CoreGraphics.framework */,
 				739CFE8C17A7CACB00D8BD20 /* SenTestingKit.framework */,
-				EC54C8916D9C42D9A5801F26 /* libPods.a */,
+				E41001A2D00043A8BA7EB7C3 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -235,19 +224,6 @@
 				739CFE9517A7CACB00D8BD20 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		73AF20B41851EFBB004AAC62 /* TestFlightSDK2.0.2 */ = {
-			isa = PBXGroup;
-			children = (
-				73AF20B51851F0D8004AAC62 /* libTestFlight.a */,
-				73AF20B61851F0D8004AAC62 /* README.md */,
-				73AF20B71851F0D8004AAC62 /* release_notes.md */,
-				73AF20B81851F0D8004AAC62 /* TestFlight.h */,
-				73AF20B91851F0D8004AAC62 /* TestFlight+AsyncLogging.h */,
-				73AF20BA1851F0D8004AAC62 /* TestFlight+ManualSessions.h */,
-			);
-			path = TestFlightSDK2.0.2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,9 +307,7 @@
 			files = (
 				739CFE7317A7CACB00D8BD20 /* InfoPlist.strings in Resources */,
 				739CFE7B17A7CACB00D8BD20 /* Default.png in Resources */,
-				73AF20BC1851F0D8004AAC62 /* README.md in Resources */,
 				733E3CD417EA08890046ECD1 /* trilbyhat@2x.png in Resources */,
-				73AF20BD1851F0D8004AAC62 /* release_notes.md in Resources */,
 				739CFE7D17A7CACB00D8BD20 /* Default@2x.png in Resources */,
 				F28D4AD617AB183400A81C47 /* photo@2x.png in Resources */,
 				F28D4AD217AB11D600A81C47 /* Images.xcassets in Resources */,
@@ -536,7 +510,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dominic Barnes (Y8Y7Y593RQ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Trilby Me/Trilby Me-Prefix.pch";
@@ -548,7 +522,7 @@
 					"/Users/domster83/Xcode/Trilby\\ Me/TestFlightSDK2.0.2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "A3F732EF-4127-45F3-B70C-1F8E3BFBF518";
+				PROVISIONING_PROFILE = "6ED71668-68ED-4AF0-847D-A25141D9E9D7";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -560,7 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dominic Barnes (Y8Y7Y593RQ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Trilby Me/Trilby Me-Prefix.pch";
@@ -572,7 +546,7 @@
 					"/Users/domster83/Xcode/Trilby\\ Me/TestFlightSDK2.0.2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "A3F732EF-4127-45F3-B70C-1F8E3BFBF518";
+				PROVISIONING_PROFILE = "6ED71668-68ED-4AF0-847D-A25141D9E9D7";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

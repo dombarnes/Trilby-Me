@@ -102,7 +102,8 @@
     
 }
 - (void) imagePickerController: (UIImagePickerController *) picker
- didFinishPickingMediaWithInfo: (NSDictionary *) info {
+
+    didFinishPickingMediaWithInfo: (NSDictionary *) info {
     
     self.photoView.image = [info valueForKey:UIImagePickerControllerOriginalImage];
     
