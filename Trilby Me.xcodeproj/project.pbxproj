@@ -79,7 +79,8 @@
 		739CFE9617A7CACB00D8BD20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		739CFE9817A7CACB00D8BD20 /* Trilby_MeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trilby_MeTests.h; sourceTree = "<group>"; };
 		739CFE9917A7CACB00D8BD20 /* Trilby_MeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trilby_MeTests.m; sourceTree = "<group>"; };
-		B547B7F5B5B54069A4FDCE29 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		BCCE1A5FE4497CFE9D72298D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D4CEA6BDE14BEFDBBD326CD9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E41001A2D00043A8BA7EB7C3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28D4AD117AB11D600A81C47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F28D4AD317AB182300A81C47 /* beard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beard@2x.png"; sourceTree = "<group>"; };
@@ -117,6 +118,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FC4095D0F6E6F65749D4EE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4CEA6BDE14BEFDBBD326CD9 /* Pods.debug.xcconfig */,
+				BCCE1A5FE4497CFE9D72298D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7306DCA517F5C4120050EA7F /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,7 +161,7 @@
 				739CFE6717A7CACB00D8BD20 /* Frameworks */,
 				739CFE6617A7CACB00D8BD20 /* Products */,
 				7306DCA517F5C4120050EA7F /* Reachability */,
-				B547B7F5B5B54069A4FDCE29 /* Pods.xcconfig */,
+				6FC4095D0F6E6F65749D4EE4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -266,7 +276,7 @@
 			name = "Trilby MeTests";
 			productName = "Trilby MeTests";
 			productReference = 739CFE8B17A7CACB00D8BD20 /* Trilby MeTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -381,7 +391,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -506,23 +516,23 @@
 		};
 		739CFE9E17A7CACB00D8BD20 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B547B7F5B5B54069A4FDCE29 /* Pods.xcconfig */;
+			baseConfigurationReference = D4CEA6BDE14BEFDBBD326CD9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Dominic Barnes (Y8Y7Y593RQ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Trilby Me/Trilby Me-Prefix.pch";
 				INFOPLIST_FILE = "Trilby Me/Trilby Me-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/domster83/Xcode/Trilby\\ Me/TestFlightSDK2.0.0",
 					"/Users/domster83/Xcode/Trilby\\ Me/TestFlightSDK2.0.2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6ED71668-68ED-4AF0-847D-A25141D9E9D7";
+				PROVISIONING_PROFILE = "b4a1c79c-4819-4433-a5d4-921660cd4cda";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -530,23 +540,23 @@
 		};
 		739CFE9F17A7CACB00D8BD20 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B547B7F5B5B54069A4FDCE29 /* Pods.xcconfig */;
+			baseConfigurationReference = BCCE1A5FE4497CFE9D72298D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Dominic Barnes (Y8Y7Y593RQ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Trilby Me/Trilby Me-Prefix.pch";
 				INFOPLIST_FILE = "Trilby Me/Trilby Me-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/domster83/Xcode/Trilby\\ Me/TestFlightSDK2.0.0",
 					"/Users/domster83/Xcode/Trilby\\ Me/TestFlightSDK2.0.2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6ED71668-68ED-4AF0-847D-A25141D9E9D7";
+				PROVISIONING_PROFILE = "b4a1c79c-4819-4433-a5d4-921660cd4cda";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
